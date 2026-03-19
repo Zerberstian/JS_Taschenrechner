@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://img.freepik.com/premium-photo/simple-white-background-with-smooth-lines-light-colors_476363-5552.jpg?w=826");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    color: white;  
+}
+
+.content-box {
+    width: 40%;
+    margin: 100px auto;
+    background-color: rgb(0,0,0);
+    padding: 20px;
+    border-radius: 20px;   
+}
+
+.btn-list {
+    margin: 0 auto;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    gap: 0.2rem;
+    
+}
+
+.btn {
+    color: white;
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 0px;
+    margin-top: 10px;
+}
+
+.Ziffer {
+   background-color: rgb(59, 59, 59); 
+}
+
+.rechenzeichen {
+    background-color: rgb(255, 174, 0) 
+}
+
+.funktionszeichen {
+    color: black;
+    background-color: rgb(160, 160, 160);
+}
+
+.null {
+    grid-column: span 2;
+    width: 15rem;
+    border-radius: 7.5rem;
+     
+}
