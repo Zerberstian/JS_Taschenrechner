@@ -12,8 +12,9 @@ body {
 }
 
 .content-box {
+    position: fixed;
     width: 40%;
-    margin: 100px auto;
+    margin: auto 30% ;
     background-color: rgb(0,0,0);
     padding: 20px;
     border-radius: 20px;   
@@ -58,4 +59,26 @@ body {
     width: 15rem;
     border-radius: 7.5rem;
      
+}
+
+#insertbox {
+    height: 60px;
+    background-color: rgba( 220, 220, 220, 1);
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.g2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cb2 {
+    background-color:  rgba( 220, 220, 220, 1);
+    border-radius: 2rem;
+    margin: 10px;
+    text-align: center;
+    color: black;
 }
